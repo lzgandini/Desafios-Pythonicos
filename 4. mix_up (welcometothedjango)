@@ -13,12 +13,8 @@ Assuma que a e b tem tamanho 2 ou maior.
 """
 
 def mix_up(a, b):
-    if len(a) >= 2 and len(b) >= 2:
-        troca_a = a.replace(a[:2], b[:2])
-        troca_b = b.replace(b[:2], a[:2])
-        return ' '.join([troca_a, troca_b])
-    else:
-        return []
+    juntos = ' '.join([a.replace(a[:2], b[:2]), b.replace(b[:2], a[:2])])
+    return juntos if len(a) >= 2 and len(b) >= 2 else []
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
 
