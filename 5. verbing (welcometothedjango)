@@ -11,11 +11,11 @@ Retorne o resultado da string.
 """
 
 def verbing(s):
+    add_ly = ''.join([s, 'ly'])
+    add_ing = ''.join([s, 'ing'])
+
     if len(s) >= 3:
-        if s.endswith('ing'):
-            return ''.join([s, 'ly'])
-        else:
-            return ''.join([s, 'ing'])
+        return add_ly if s.endswith('ing') else add_ing
     return s
 
 
