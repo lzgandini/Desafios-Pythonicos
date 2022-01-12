@@ -13,16 +13,19 @@ a-frente + b-frente + a-trás + b-trás
 
 import math
 
-def parte_inicial(s):
-    par_impar = math.ceil(len(s) / 2)
-    return s[0: par_impar]
+def metade(x):
+    return math.ceil(len(x) / 2)
 
-def parte_final(s):
-    par_impar = math.ceil(len(s) / 2)
-    return s[par_impar: len(s)]
+def inicio(y):
+    return y[:metade(y)]
+    #inicio = x[:metade]
+
+def final(z):
+    return z[metade(z):]
+    #final = x[metade:]
 
 def front_back(a, b):
-    return parte_inicial(a) + parte_inicial(b) + parte_final(a) + parte_final(b)
+    return ''.join([inicio(a), inicio(b), final(a), final(b)])
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
