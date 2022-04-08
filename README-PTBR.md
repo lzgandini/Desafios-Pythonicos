@@ -1,11 +1,13 @@
-Título do projeto
-Desafios Pythonicos do Henrique Bastos (Welcome to the Django)
+<h1>Desafios Pythonicos do Henrique Bastos</h1>
+
+<p>Exercícios propostos pelo Curso Desafios Pythonicos, do Henrique Bastos. Todos contam com o enunciado na descrição.</p>
+<p>Bons estudos!</p><br>
 
 🛠️ Construído com
 Pycharm
 
-🎁 Expressões de gratidão
+🎁 Agradeço a todos da comunidade Welcome to the Django que colaboraram para a execução deste projeto.<br>
 
-Agradeço a todos da comunidade Welcome to the Django que colaboraram para a execução deste projeto. 📢
+<br>
 
-⌨️ com ❤️ por Luiza Gandini 😊
+com ❤️ por Luiza Gandini
